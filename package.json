@@ -1,0 +1,29 @@
+{
+  "name": "data-groomer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Data Groomer ---",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-ekweible:ekweible/data-groomer.git"
+  },
+  "dependencies": {
+    "bootstrap": "^3.2.0",
+    "camel-case": "^1.0.2",
+    "es6-promise": "^1.0.0"
+  },
+  "devDependencies": {
+    "wGulp": "git+ssh://git@github.com:webfilings/wGulp#0.5.4"
+  },
+  "jspm": {
+    "name": "data-groomer",
+    "dependencies": {
+      "bootstrap": "^3.2.0",
+      "react": "^0.11.2",
+      "react-router": "npm:react-router@^0.7.0",
+      "es6-promise": "npm:es6-promise@^1.0.0",
+      "camel-case": "npm:camel-case@^1.0.2",
+      "reflux": "npm:reflux@^0.1.12"
+    }
+  }
+}
